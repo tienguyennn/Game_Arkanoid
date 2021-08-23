@@ -1,0 +1,26 @@
+﻿BaseObject.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function "public: bool __cdecl BaseObject::LoadImg(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadImg@BaseObject@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z)
+BaseObject.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "public: bool __cdecl BaseObject::LoadImg(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadImg@BaseObject@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z)
+BaseObject.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "public: void __cdecl BaseObject::Render(struct SDL_Renderer *,struct SDL_Rect *)" (?Render@BaseObject@@QEAAXPEAUSDL_Renderer@@PEAUSDL_Rect@@@Z)
+BaseObject.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function "public: void __cdecl BaseObject::Free(void)" (?Free@BaseObject@@QEAAXXZ)
+BaseObject.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "public: bool __cdecl BaseObject::LoadImg(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadImg@BaseObject@@QEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAUSDL_Renderer@@@Z)
+ImpTimer.obj : error LNK2019: unresolved external symbol SDL_GetTicks referenced in function "public: int __cdecl ImpTimer::GetTicks(void)" (?GetTicks@ImpTimer@@QEAAHXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "bool __cdecl InitData(void)" (?InitData@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function main
+main.obj : error LNK2019: unresolved external symbol SDL_SetHint referenced in function "bool __cdecl InitData(void)" (?InitData@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "bool __cdecl InitData(void)" (?InitData@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function "bool __cdecl InitData(void)" (?InitData@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function main
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "bool __cdecl InitData(void)" (?InitData@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol IMG_Init referenced in function "bool __cdecl InitData(void)" (?InitData@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol IMG_Quit referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+E:\Game\C++\Arkanoid\LibSdl2\SDL2-2.0.8\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Game\C++\Arkanoid\LibSdl2\SDL2-2.0.8\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Game\C++\Arkanoid\LibSdl2\SDL2_image-2.0.3\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Game\C++\Arkanoid\LibSdl2\SDL2_mixer-2.0.2\lib\x86\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Game\C++\Arkanoid\LibSdl2\SDL2_ttf-2.0.14\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\Game\C++\Arkanoid\x64\Debug\Arkanoid.exe : fatal error LNK1120: 20 unresolved externals
